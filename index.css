@@ -1,0 +1,76 @@
+body {
+    background-image: url(./image/anh1.jpg), linear-gradient(145deg, rgb(71, 71, 77) 0,rgb(40, 38, 82) 100%);
+    display:flex;
+    background-color: rgb(0, 0, 0, 0.7);
+    justify-content: center;
+    background-blend-mode: overlay;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content {
+    background-image: url(./image/anh1.jpg),linear-gradient(145deg, rgb(168, 91, 100) 0%, rgb(40, 38, 82) 100%);
+    width: 400px;
+    height: 600px;
+    margin-top: 55px;
+    background-color: rgb(0, 0, 0, 0.3);
+    background-repeat: no-repeat;  
+    background-blend-mode: overlay;
+}
+ h1{
+     text-align: center;
+     color:#fff;
+     font-size: 50px;
+     margin-top: 150px;
+ }
+
+ .txt {
+     position: relative;
+    
+ }
+
+ .txt__input{
+     width: 300px;
+     height: 50px;
+     margin-left: 45px;
+     outline: none;
+     box-sizing: border-box;
+     outline: none;
+     background-color:transparent;
+     border:none;
+     border-bottom: 1px#fff solid;
+     padding: 30px;
+ }
+
+.btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin-left: 55px;
+    margin-top: 60px;
+    color:red;
+}
+
+::placeholder{
+   
+    color:#fff;
+}
+
+p{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+
+.txt i {
+    position: absolute;
+    top: 21px;
+    left: 50px;
+    color:#fff;
+}
+
+.form{
+    margin-top: 80px;
+}
